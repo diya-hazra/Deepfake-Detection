@@ -3,8 +3,8 @@ This project is focused on detecting deepfake content in videos using computer v
 
 We used YOLOv8 (a state-of-the-art object detection and classification model) to train a system that can classify whether a face in an image is real or fake. Here’s how it works:
 
-🔹 First, we collected real and fake videos from public datasets.
-🔹 Then, we extracted frames (individual images) from these videos.
+🔹 First, we collected real and fake videos from public datasets. \n
+🔹 Then, we extracted frames (individual images) from these videos. \n
 🔹 These images were sorted into two folders — real and fake — to prepare them for training.
 🔹 Using YOLOv8’s image classification mode, we trained a model to learn the difference between real and fake faces based on visual patterns.
 🔹 Finally, we tested the model on new images to check how accurately it could detect deepfakes.
