@@ -1,2 +1,2 @@
-# Deepfake-Detection
-Deepfake Detection Using YOLOv8 
+# Deepfake Detection Using YOLOv8 
+A deepfake detection system built using YOLOv8, focused on classifying real vs. fake video frames. This project includes a custom pipeline for dataset preparation, frame extraction, and image classification using deep learning. Trained on real and manipulated video datasets to identify deepfake artifacts with high accuracy. Suitable for real-time image-based deepfake detection tasks.  
